@@ -1,0 +1,12 @@
+{
+  "name": "bw-visual-testing",
+  "version": "0.0.0",
+  "description": "Brandwatch visual regression testing.",
+  "dependencies": {},
+  "devDependencies": {
+    "resemblejs": "^1.2.1"
+  },
+  "scripts": {
+    "test": "casperjs test suite/login.js --includes=inc.js --post=post.js --pre=pre.js"
+  }
+}
